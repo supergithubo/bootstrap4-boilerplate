@@ -1,0 +1,8 @@
+{
+  "name": "boostrap4-boilerplate",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
