@@ -6,6 +6,7 @@ module.exports = {
 
     app_files: {
         js: [ 'src/**/*.js' ],
+        scss: [ 'src/scss/*.scss' ],
         html: [ 'src/**/*.html' ],
         entry: [ 'src/index.html' ]
     },
@@ -15,9 +16,7 @@ module.exports = {
             'bower_components/tether/dist/js/tether.js',
             'bower_components/bootstrap/dist/js/bootstrap.js'
         ],
-        css: [
-            'bower_components/bootstrap/dist/css/bootstrap.css'
-        ],
+        css: [],
         assets: []
     }
 }
