@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "devDependencies": {},
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6"
+    "bootstrap": "github:twbs/bootstrap#v4-dev"
   }
 }
