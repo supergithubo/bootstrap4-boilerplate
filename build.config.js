@@ -12,8 +12,8 @@ module.exports = {
     },
     vendor_files: {
         js: [
-            'bower_components/jquery/dist/jquery.slim.js',
-            'bower_components/bootstrap/dist/js/bootstrap.js'
+            'node_modules/jquery/dist/jquery.slim.js',
+            'node_modules/bootstrap/dist/js/bootstrap.js'
         ],
         css: [],
         assets: []

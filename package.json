@@ -17,5 +17,8 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "merge-stream": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "github:twbs/bootstrap#v4-dev"
   }
 }
