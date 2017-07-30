@@ -13,7 +13,6 @@ module.exports = {
     vendor_files: {
         js: [
             'bower_components/jquery/dist/jquery.slim.js',
-            'bower_components/tether/dist/js/tether.js',
             'bower_components/bootstrap/dist/js/bootstrap.js'
         ],
         css: [],
