@@ -44,10 +44,10 @@ gulp.task('build:scripts', function() {
 gulp.task('build', 
     gulp.series(
         'clean', 
-        gulp.parallel([
-            'build:views', 
+        gulp.series([
+            'build:scripts',
             'build:styles',
-            'build:scripts'
+            'build:views'
         ])
     ), function(done) {
         done();
