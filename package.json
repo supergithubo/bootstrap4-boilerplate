@@ -19,6 +19,7 @@
     "merge-stream": "^1.0.1"
   },
   "dependencies": {
-    "bootstrap": "github:twbs/bootstrap#v4-dev"
+    "bootstrap": "github:twbs/bootstrap#v4-dev",
+    "popper.js": "^1.11.1"
   }
 }
