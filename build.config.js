@@ -8,7 +8,8 @@ module.exports = {
         js: [ 'src/**/*.js' ],
         scss: [ 'src/scss/*.scss' ],
         html: [ 'src/**/*.html' ],
-        entry: [ 'src/index.html' ]
+        entry: [ 'src/index.html' ],
+        assets: [ 'src/assets/**' ]
     },
     vendor_files: {
         js: [

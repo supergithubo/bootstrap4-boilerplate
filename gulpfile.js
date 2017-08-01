@@ -41,10 +41,17 @@ gulp.task('build:scripts', function() {
     return merge(vendor_js, app_js);
 });
 
+gulp.task('build:assets', function () {
+    return gulp.src(config.app_files.assets)
+        .pipe(gulp.dest(config.build_dir + '/assets'))
+        .pipe(livereload());
+});
+
 gulp.task('build', 
     gulp.series(
         'clean', 
         gulp.series([
+            'build:assets',
             'build:scripts',
             'build:styles',
             'build:views'
@@ -60,7 +67,8 @@ gulp.task('watch', function() {
     var views = config.app_files.entry.concat(config.app_files.html);
     var styles = config.vendor_files.css.concat(config.app_files.scss);
     var scripts = config.vendor_files.js.concat(config.app_files.js);
-    var watcher = gulp.watch(views.concat(styles).concat(scripts));
+    var assets = config.app_files.assets;
+    var watcher = gulp.watch(views.concat(styles).concat(scripts).concat(assets));
     watcher.on('all', gulp.series(['build']));
 });
 
