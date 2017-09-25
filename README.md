@@ -1,5 +1,5 @@
 # Bootstrap 4 Boilerplate (Gulp + Chrome Live Reload)
-- Boostrap 4 (Alpha 6)
+- Boostrap 4 Beta
 - Gulp 4 (Dev Branch)
 - Chrome LiveReload
 
@@ -20,8 +20,7 @@ $ npm install -g gulp-cli
 then proceed with the installation:
 
 ```
-$ npm install
-$ bower install
+$ yarn install
 ```
 
 ## Build Sytem
