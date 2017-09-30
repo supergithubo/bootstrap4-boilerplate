@@ -1,4 +1,8 @@
+//Optional. Only import functions if you need to override variables which requires functions from bootstrap _functions.scss
 @import "../../node_modules/bootstrap/scss/functions";
-@import "variables";   
+//Custom variable overrides
+@import "variables";
+//Bootstrap scss dist
 @import "../../node_modules/bootstrap/scss/bootstrap";
+//Custom styles
 @import "styles"; 
